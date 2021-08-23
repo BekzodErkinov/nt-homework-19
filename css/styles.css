@@ -1,0 +1,350 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	color: #2f4b6e;
+	line-height: 1.5;
+	background-color: #f4fcff;
+	font-family: 'Nunito', Arial, sans-serif;
+}
+a{
+	color: #2f4b6e;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.sec__linear-grad{
+	min-width: 1200px;
+	margin: 0 auto;
+	border-bottom-right-radius: 16%;
+	background-image: linear-gradient(to bottom, #f4fcff 60%, #ddf0f7 85%);/*#e8f5fa  asl rangi*/
+}
+.sitenav{
+	margin-top: 30px;
+}
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+.sitenav__container{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.sitenav__container .sitenav__telegram{
+	font-weight: 600;
+	margin-right: 30px;
+}
+/*.button{}*/
+.button--yellow{
+	font-weight: 900;
+	border-radius: 36px;
+	display: inline-block;
+	background-color: #f8e587;
+	padding: 15px 50px 15px 22px;
+	transition: background-color .5s ease;
+}
+.button--yellow:hover{
+	background-color: #ffe973;
+}
+.button__icon{
+	margin-right: 25px;
+}
+.hero__container{
+	margin-top: 150px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.hero__content{
+	margin-top: 20px;
+}
+.hero__big-text{
+	width: 420px;
+	height: 85px;
+	font-size: 42px;
+	font-weight: 600;
+	line-height: 52px;
+}
+.hero__text{
+	width: 430px;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 36px;
+	margin-bottom: 35px;
+}
+.hero__small-text{
+	color: #738091;
+	font-size: 14px;
+	font-weight: 400;
+}
+/* .hero__img{} */
+.handshake{
+	padding-top: 177px;
+	padding-bottom: 55px;
+}
+.handshake__container{
+	padding-bottom: 65px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid #e1e8f2;
+}
+/* .handshake__text{} */
+.handshake__container p{
+	margin-left: 31px;
+	display: inline-block;
+	vertical-align: super;
+}
+/* .handshake__img{} */
+.handshake .button--telegram{
+	display: block;
+	font-weight: 600;
+	margin-right: 60px;
+	padding: 20px 47px 18px 40px;
+	border-radius: 35px;
+	border: 2px solid #d0dceb;
+	background-color: #f4fcff;
+}
+.features__content{
+	text-align: center;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.features__content .features__lead{
+	width: 502px;
+	font-size: 42px;
+	font-weight: 600;
+	line-height: 52px;
+	margin: 65px 0 0;
+}
+.features__content .features__text{
+	width: 580px;
+	font-size: 24px;
+	margin: 0;
+	padding-top: 10px;
+	word-spacing: 1px;
+	line-height: 36px;
+}
+.features__list{
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	margin-top: 90px;
+	padding-bottom: 80px;	
+	text-align: center;
+	list-style-type: none;
+}
+.features__list .features__item{
+	width: 197px;
+	font-size: 21px;
+	font-weight: 700;
+	line-height: 30px;
+	margin-right: 72px;
+}
+/* .feature__img{} */
+.screenshots{
+	padding: 140px 0 0;
+}
+.screenshot{
+	margin-bottom: -35px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+/* .screenshot__img{} */
+.screenshot__content{
+	padding: 0 70px;
+	margin-bottom: 130px;
+}
+.screenshot__lead{
+	width: 420px;
+	margin: 0;
+	font-size: 42px;
+	font-weight: 900;
+	line-height: 52px;
+}
+.screenshot__text{
+	width: 398px;
+	font-size: 24px;
+	line-height: 36px;
+}
+.stories{
+	position: relative;
+	min-height: 480px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	margin: 100px auto 0;
+	background-color: #f8e587;
+	border-top-left-radius: 16pc;
+}
+/* dumaloq rasmlar ekran masshtabi o'zgartirilganida joyida turishi un.
+.story_img_wrap{
+	position: relative;
+	min-height: 480px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}*/
+.story_txt_wrap{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+.stories__heading{
+	margin: 0;
+	font-size: 37px;
+	font-weight: 900;
+	line-height: 50px;
+}
+.stories__text{
+	width: 465px;
+	font-size: 18px;
+	line-height: 30px;
+}
+/*.button{}*/
+.button--outline{
+	font-size: 14px;
+	font-weight: 600;
+	margin-top: 20px;
+	padding: 15px 26px 15px 55px;
+	border-radius: 31px;
+	border: 2px solid #2f4b6e;
+	background-image: url(../img/chat-round@2x.png);
+	background-position: left 20px center;
+	background-repeat: no-repeat;
+	background-size: 20px;
+}
+.story-img{
+	position: absolute;
+}
+.user_img1{
+	top: 45px;
+	left: 25px;
+}
+.user_img2{
+	top: 70px;
+	left: 160px;
+}
+.user_img3{
+	left: 290px;
+	bottom: 170px;
+}
+.user_img4{
+	left: 91px;
+	bottom: 106px;
+}
+.user_img5{
+	left: 220px;
+	bottom: -60px;
+}
+.user_img6{
+	left: 10px;
+	bottom: -77px;
+}
+.dot_img{
+	top: 2px;
+	right: 2px;
+}
+.user_img7{
+	top: -60px;
+	right: 24px;
+}
+.user_img8{
+	top: 60px;
+	right: 236px;
+}
+.user_img9{
+	top: 150px;
+	right: 2px;
+}
+.user_img10{
+	top: 178px;
+	right: 102px;
+}
+.user_img11{
+	right: 65px;
+	bottom: -12px;
+}
+.user_img12{
+	right: 235px;
+	bottom: -95px;
+}
+.user_img13{
+	right: 0px;
+	bottom: -136px;
+}
+.get-app{
+	min-height: 730px;
+	background-image: url(../img/dot.png), url(../img/family.png);
+	background-position: left top, bottom center;
+	background-repeat: no-repeat;
+	background-size: 900px, 660px;
+	z-index: -1;
+}
+.get-app-wrap{
+	padding-top: 100px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.get-app__lead{
+	margin-bottom: 0;
+	font-size: 42px;
+	font-weight: 900;
+	line-height: 52px;
+}
+.get-app__text{
+	width: 397px;
+	font-size: 21px;
+	line-height: 30px;
+	margin-bottom: 35px;
+}
+.site-footer{
+	min-height: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #e6f8ff;
+}
+.socials{
+	padding: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.socials__item{
+	display: flex;
+	padding: 30px 0 10px;
+	/*list-style-type: none; - berilmasa ham nuqtalar ko'rinmayapti berilmasa to'ri bo'ladimi ?*/
+}
+.socials__link{
+	width: 42px;
+    height: 42px;
+    margin-right: 9px;
+    background-image: url(../img/messangers.png);
+    transition: transform 1s ease-in-out;
+}
+.telegram{
+	background-position: 0 0;
+}
+.facebook{
+	background-position: -49px 0;
+}
+.twitter{
+	background-position: -98px 0;
+}
+.instagram{
+	background-position: 42px 0;
+}
+.site-footer__text{
+	text-align: center;
+	padding-bottom: 36px;
+}
+.telegram:hover, .facebook:hover, .twitter:hover, .instagram:hover{
+	transform: rotateY(360deg);
+}
